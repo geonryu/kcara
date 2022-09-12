@@ -1,4 +1,5 @@
 #wrapper{
+    overflow: hidden;
 }
 
 .wrap{
@@ -165,7 +166,7 @@ main .box-sd{
     padding: 25px 15px;
 }
 .sec-bn h2{
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 25px;
 }
 
