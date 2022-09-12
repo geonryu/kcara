@@ -4,19 +4,14 @@
     
     .wrap{
         padding: 0 30px;
-        max-width: 1380px;
+        max-width: 1360px;
         margin: 0 auto;
     }
-    
-    .symbols{margin-right: 4px;}
     
     header{
         height: 112px;
         border-top: 10px solid #072a60;
         border-bottom: 2px solid #f0f0f0;
-    }
-    
-    header .wrap{
     }
     
     header .wrap h1{
@@ -108,12 +103,12 @@
     }
     
     main .box-sd{
-        box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
     }
     
     .sec-bn{
         padding: 40px 30px;
-        max-width: 1380px;
+        max-width: 1360px;
         margin: 0 auto;
     }
     .sec-bn h2{
@@ -212,7 +207,7 @@
         border-radius: 20px;
         margin-bottom: 0;
         width: 100%;
-        margin-right: 25px;
+        margin-right: 40px;
     }
     .sec-more .wrap .content .box:last-child{
         margin-right: 0;
