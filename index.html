@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="wrap">
+                <h1><a href="#"><img src="./images/logo.png" alt="한국접근성평가연구원"></a></h1>
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="#">접근성소개</a></li>
+                        <li><a href="#">연구원소개</a></li>
+                        <li><a href="#">자료실</a></li>
+                        <li><a href="#">문의하기</a></li>
+                    </ul>
+                    <div class="utilities">
+                        <ul class="sign">
+                            <li class="sign-in"><a href="#">로그인</a></li>
+                            <li class="sign-up"><a href="#">회원가입</a></li>
+                        </ul>
+                        <div class="toggle-viewmode">
+                            <button class="btn-toggle-viewmode"><span class="material-symbols-outlined symbols">bedtime</span>야간모드</button>
+                        </div>
+                    </div>
+                </nav>
+                <button class="btn-nav-opn" onclick="navBtnAnim()">
+                    <span></span>
+                </button>
+                <script>
+                    const navBtnAnim = () => {
+                        const navBtn = document.querySelector(".btn-nav-opn");
+                        const nav = document.querySelector("nav");
+                        navBtn.classList.toggle("active");
+                        nav.classList.toggle("on")
+                    }
+                </script>
+            </div>
+        </header>
+        <main>
+            <section class="sec-bn">
+                <h2>
+                    세상을 연결하는 작은 변화<br>
+                    한국접근성평가연구원이 만들어갑니다.
+                </h2>
+                <div class="swiper slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide item box-sd">
+                            <a href="#">
+                                <div class="slide-txt">
+                                    <div class="slide-tag">공지사항</div>
+                                    <div class="slide-tit">우선구매대상 지능정보제품 검증 및 시험기관 지정 등에 관한 지침</div>
+                                    <div class="slide-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna </div>
+                                </div>
+                                <div class="slide-img">
+                                    <img src="./images/bn-illust-1.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec-intro">
+                <div class="wrap">
+                    <h3>
+                        당신이 모르는 접근성에 대한<br>
+                        모든 이야기
+                    </h3>
+                    <div class="content box-sd">
+                        <a href="#">
+                            <div class="tit">
+                                SW개발자도 사용자도 모두가 알았으면 하는<br>
+                                접근성에 대한 모든 이야기들을 모아보았습니다.
+                            </div>
+                            <div class="btn-more">더 알아보기</div>
+                            <div class="pic">
+                                <img src="./images/sec-intro-illust.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="sec-more">
+                <div class="wrap">
+                    <h3>
+                        더 많은 자료를 살펴보세요.
+                    </h3>
+                    <div class="content">
+                        <div class="box box-sd">
+                            <a href="#">
+                                <div class="ico">
+                                    <img src="./images/sec-more-ico-1.png" alt="">
+                                </div>
+                                <div class="txt">
+                                    정보화 기본법<br>
+                                    자료실 바로가기
+                                </div>
+                                <div class="icon-more">
+                                    <span class="material-symbols-outlined">arrow_circle_right</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box box-sd">
+                            <a href="#">
+                                <div class="ico">
+                                    <img src="./images/sec-more-ico-2.png" alt="">
+                                </div>
+                                <div class="txt">
+                                    접근성 소개와 표준
+                                </div>
+                                <div class="icon-more">
+                                    <span class="material-symbols-outlined">arrow_circle_right</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box box-sd">
+                            <a href="#">
+                                <div class="ico">
+                                    <img src="./images/sec-more-ico-3.png" alt="">
+                                </div>
+                                <div class="txt">
+                                    시험 평가 가이드라인<br>
+                                    자세히 알아보기
+                                </div>
+                                <div class="icon-more">
+                                    <span class="material-symbols-outlined">arrow_circle_right</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="wrap">
+                <div class="ft-menu">
+                    <ul class="ft-nav">
+                        <li><a href="#">접근성 소개</a></li>
+                        <li><a href="#">연구원 소개</a></li>
+                        <li><a href="#">자료실</a></li>
+                        <li><a href="#">문의하기</a></li>
+                    </ul>
+                    <ul class="site-map">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                    </ul>
+                </div>
+                <address>
+                    <h2 class="ft-logo"><img src="./images/ft-logo.png" alt=""></h2>
+                    <p>
+                        (사)한국접근성평가연구원 서울 종로구 대학로8길 26, 6층 (동숭동, 예향빌딩)<br>
+                        사업자등록번호 139-82-03219 / 대표자 이성일<br>
+                        COPYRIGHT©KOREA ACCESSIBILITY RESEARCH & EVALUATION ALL RIGHTS RESERVED.
+                    </p>
+                </address>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
