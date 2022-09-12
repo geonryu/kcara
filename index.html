@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
 </head>
 <body>
@@ -65,8 +68,40 @@
                                 </div>
                             </a>
                         </div>
+                        <div class="swiper-slide item box-sd">
+                            <a href="#">
+                                <div class="slide-txt">
+                                    <div class="slide-tag">공지사항</div>
+                                    <div class="slide-tit">우선구매대상 지능정보제품 검증 및 시험기관 지정 등에 관한 지침</div>
+                                    <div class="slide-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna </div>
+                                </div>
+                                <div class="slide-img">
+                                    <img src="./images/bn-illust-1.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide item box-sd">
+                            <a href="#">
+                                <div class="slide-txt">
+                                    <div class="slide-tag">공지사항</div>
+                                    <div class="slide-tit">우선구매대상 지능정보제품 검증 및 시험기관 지정 등에 관한 지침</div>
+                                    <div class="slide-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna </div>
+                                </div>
+                                <div class="slide-img">
+                                    <img src="./images/bn-illust-1.png" alt="">
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <script>
+                    const mainBn = new Swiper(".sec-bn .slider", {
+                        slidesPerView : 1,
+                        centeredSlides: true,
+                        spaceBetween: 25,
+                        loop: true
+                    })
+                </script>
             </section>
             <section class="sec-intro">
                 <div class="wrap">
@@ -91,7 +126,7 @@
             <section class="sec-more">
                 <div class="wrap">
                     <h3>
-                        더 많은 자료를 살펴보세요.
+                        더 많은 자료를 살펴보세요
                     </h3>
                     <div class="content">
                         <div class="box box-sd">

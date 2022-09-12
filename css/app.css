@@ -234,6 +234,7 @@ main .box-sd{
 .sec-intro .wrap h3{
     margin-bottom: 20px;
     font-size: 18px;
+    color: #072a60;
 }
 .sec-intro .wrap .content{
     overflow: hidden;
@@ -272,9 +273,7 @@ main .box-sd{
 .sec-more .wrap{}
 .sec-more .wrap h3{
     margin-bottom: 20px;
-}
-.sec-more .wrap .content{
-    
+    color: #072a60;
 }
 .sec-more .wrap .content .box{
     border-radius: 14px;
@@ -304,7 +303,6 @@ footer{
     background-color: #072a60;
     padding: 25px 0;
 }
-
 footer .wrap{
     padding-top: 36px;
 }
