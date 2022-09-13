@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/app.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/library.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
@@ -22,7 +23,7 @@
                     <ul class="navigation">
                         <li><a href="#none" onclick="alert(`페이지 준비중입니다.`)">접근성소개</a></li>
                         <li><a href="./center.html">연구원소개</a></li>
-                        <li><a href="#none" onclick="alert(`페이지 준비중입니다.`)">자료실</a></li>
+                        <li class="on"><a href="./library.html">자료실</a></li>
                         <li><a href="#none" onclick="alert(`페이지 준비중입니다.`)">문의하기</a></li>
                     </ul>
                     <div class="utilities">
@@ -49,14 +50,117 @@
             </div>
         </header>
         <main>
+            <section class="sec-tit">
+                <div class="wrap">
+                    <div class="txt-wrap">
+                        <p class="sub-tit">LIBRARY</p>
+                        <h2>자료실</h2>
+                        <div class="desc">
+                            KCARA의 새로운 소식과 접근성에 관련한 더 자세한 이야기를 살펴보세요.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec-board">
+                <div class="wrap">
+                    <div class="board-head">
+                        <ul class="categories">
+                            <li class="on"><button>전체</button></li>
+                            <li><button>공시</button></li>
+                            <li><button>공지사항</button></li>
+                            <li><button>참고자료</button></li>
+                        </ul>
+                        <div class="search">
+                            <form action="" onsubmit="alert(`검색기능 준비중입니다.`)">
+                                <input type="text" placeholder="검색어를 입력하세요">
+                                <button class="material-symbols-outlined">  
+                                    search
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="board-body">
+                        <ol>
+                            <li>
+                                <a href="#">
+                                    <div class="date-box">
+                                        <span class="year">2022.07</span><span class="dot">.</span><span class="date">22</span>
+                                    </div>
+                                    <div class="cate-label">공시</div>
+                                    <div class="content">
+                                        <div class="con-tit">우선구매대상지능정보제품 검증 및 시험평가기관 지정 등에 관한 지침</div>
+                                        <div class="con-desc">
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commo c …sequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis 
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="date-box">
+                                        <span class="year">2022.07</span><span class="dot">.</span><span class="date">22</span>
+                                    </div>
+                                    <div class="cate-label">공시</div>
+                                    <div class="content">
+                                        <div class="con-tit">우선구매대상지능정보제품 검증 및 시험평가기관 지정 등에 관한 지침</div>
+                                        <div class="con-desc">
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commo c …sequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis 
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="date-box">
+                                        <span class="year">2022.07</span><span class="dot">.</span><span class="date">22</span>
+                                    </div>
+                                    <div class="cate-label">공시</div>
+                                    <div class="content">
+                                        <div class="con-tit">우선구매대상지능정보제품 검증 및 시험평가기관 지정 등에 관한 지침</div>
+                                        <div class="con-desc">
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commo c …sequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis 
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="date-box">
+                                        <span class="year">2022.07</span><span class="dot">.</span><span class="date">22</span>
+                                    </div>
+                                    <div class="cate-label">공시</div>
+                                    <div class="content">
+                                        <div class="con-tit">우선구매대상지능정보제품 검증 및 시험평가기관 지정 등에 관한 지침</div>
+                                        <div class="con-desc">
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commo c …sequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis 
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="board-foot">
+                        <div class="total">
+                            총 <span>23</span>건
+                        </div>
+                        <div class="board-pagination">
+                            <div class="arrow arrow-prev"><span class="material-symbols-outlined">arrow_back</span>이전페이지</div>
+                            <div class="arrow arrow-next">다음페이지<span class="material-symbols-outlined">arrow_forward</span></div>
+                            <ul class="pagination">
+                                <li class="on"><a href="#">1</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
             <div class="wrap">
                 <div class="ft-menu">
                     <ul class="ft-nav">
                         <li><a href="#none" onclick="alert(`페이지 준비중입니다.`)">접근성 소개</a></li>
-                        <li><a href="#none" onclick="alert(`페이지 준비중입니다.`)">연구원 소개</a></li>
-                        <li><a href="#none" onclick="alert(`페이지 준비중입니다.`)">자료실</a></li>
+                        <li><a href="./center.html">연구원 소개</a></li>
+                        <li><a href="./library.html">자료실</a></li>
                         <li><a href="#none" onclick="alert(`페이지 준비중입니다.`)">문의하기</a></li>
                     </ul>
                     <ul class="site-map">
