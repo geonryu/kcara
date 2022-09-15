@@ -62,11 +62,6 @@
             </div>
         </div>
         <main>
-            <ul class="content-nav">
-                <li><a href="#">접근성이란?</a></li>
-                <li><a href="#">정보화기본법</a></li>
-                <li><a href="#">더 알아보기</a></li>
-            </ul>
             <section class="sec-access-intro">
                 <div class="wrap">
                     <h3>접근성이란 무엇인가요?</h3>
@@ -75,7 +70,7 @@
                             <img src="./images/access-intro.png" alt="">
                         </div>
                         <div class="desc">
-                            접근성이란,  산업 디자인, 사용자 인터페이스 디자인, 건축, 시스템 공학, 인간공학 분야에서 사용자의 신체적 특성이나, 지역, 나이, 지식 수준, 기술, 체험, 장애유무와 같은 제한 사항을 고려하여 가능한 많은 사용자가 불편 없이 이용할 수 있도록 제품이나 서비스를 만들어 제공하는 것을 말합니다.<br>
+                            접근성이란,  산업 디자인, 사용자 인터페이스 디자인, 건축, 시스템 공학, 인간공학 분야에서 사용자의 신체적 특성이나, 지역, 나이, 지식 수준, 기술, 체험, 장애유무와 같은 제한 사항을 고려하여 가능한 많은 사용자가 불편 없이 이용할 수 있도록 제품이나 서비스를 만들어 제공하는 것을 말합니다.<br><br>
                             대표적으론 웹 접근성(Web Accessibility)이 있으며, 웹 접근성이란 장애인, 고령자 등이 웹 사이트에서 제공하는 정보에 대해 비장애인과 동등하게 접근하고 이해할 수 있도록 보장하는 것을 말합니다.
                         </div>
                     </div>
@@ -181,6 +176,61 @@
                         </a>
                     </div>
                 </div>
+            </section>
+            <section class="sec-access-more">
+                <div class="wrap">
+                    <div class="tit-box">
+                        <h3>접근성에 관한<br>더 많은 이야기</h3>
+                    </div>
+                    <div class="content slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="box swiper-slide">
+                                <a href="#">
+                                    <h4>접근성표준</h4>
+                                    <div class="desc">***동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+                                    <div class="btn-link"><span class="material-symbols-outlined">arrow_right_alt</span></div>
+                                </a>
+                            </div>
+                            <div class="box swiper-slide">
+                                <a href="#">
+                                    <h4>KWACG</h4>
+                                    <div class="desc">WCAG(Web Content Accessibility Guidelines) 2.1은 웹 콘텐츠를 보다 더 접근 가능하게 만들기 위한 광범위한 권장표준을 포함하고 있는 지침입니다.</div>
+                                    <div class="btn-link"><span class="material-symbols-outlined">arrow_right_alt</span></div>
+                                </a>
+                            </div>
+                            <div class="box swiper-slide">
+                                <a href="#">
+                                    <h4>네이버 접근성</h4>
+                                    <div class="desc">네이버에서 제공하는 웹 접근성에 관한 상세한 가이드를 확인할 수 있습니다.</div>
+                                    <div class="btn-link"><span class="material-symbols-outlined">arrow_right_alt</span></div>
+                                </a>
+                            </div>
+                            <div class="box swiper-slide">
+                                <a href="#">
+                                    <h4>네이버 접근성</h4>
+                                    <div class="desc">네이버에서 제공하는 웹 접근성에 관한 상세한 가이드를 확인할 수 있습니다.</div>
+                                    <div class="btn-link"><span class="material-symbols-outlined">arrow_right_alt</span></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+                <script>
+                    const accessMore = new Swiper(".sec-access-more .swiper", {
+                        slidesPerView: "auto",
+                        spaceBetween: 15,
+                        scrollbar: {
+                            el: ".swiper-scrollbar"
+                        },
+                        breakpoints: {
+                            1130: {
+                                slidesPerView: 3,
+                                spaceBetween: "4.21%"
+                            }
+                        },
+                    })
+                </script>
             </section>
         </main>
         <footer>

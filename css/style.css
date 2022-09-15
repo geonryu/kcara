@@ -4,7 +4,7 @@
     
     .wrap{
         padding: 0 30px;
-        max-width: 1360px;
+        max-width: 1340px;
         margin: 0 auto;
     }
     
@@ -112,6 +112,10 @@
     header .wrap .btn-nav-opn{
         display: none;
     }
+
+    main{
+        position: relative;
+    }
     
     main .box-sd{
         box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
@@ -119,7 +123,7 @@
     
     .sec-bn{
         padding: 40px 30px;
-        max-width: 1360px;
+        max-width: 1340px;
         margin: 0 auto;
     }
     .sec-bn h2{

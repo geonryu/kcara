@@ -69,7 +69,6 @@
 
 .sec-about .wrap div .txt h3{
     color: #072a60;
-    font-size: 18px;
     margin-bottom: 20px;
 }
 .sec-about .wrap div .txt .desc{
@@ -84,7 +83,6 @@
 .sec-member .wrap{}
 .sec-member .wrap h3{
     color: #072a60;
-    font-size: 18px;
     margin-bottom: 20px;
 }
 .sec-member .wrap .org-list{
@@ -138,7 +136,6 @@
     text-align: center;
 }
 .sec-map .map-explain h3{
-    font-size: 18px;
     color: #072a60;
     margin-bottom: 14px;
     text-align: left;
@@ -173,7 +170,7 @@
 .sec-map .wrap .map-naver{
     padding: 20px 0;
 }
-.sec-map .wrap .map-naver h3{
+.sec-map .wrap .map-naver h3{/**/
     font-size: 14px;
     text-align: center;
     font-weight: 600;
@@ -212,7 +209,7 @@
     }
     
     .sec-about{
-        padding: 50px 0 80px;
+        padding: 80px 0;
     }
     .sec-about .wrap{}
     .sec-about .wrap .about{
