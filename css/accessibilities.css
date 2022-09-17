@@ -340,6 +340,7 @@ main section h3{
     .sec-access-more{
         padding: 80px 0;
     }
+    
     .sec-access-more .wrap{
         display: flex;
         justify-content: space-between;

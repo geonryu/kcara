@@ -18,7 +18,7 @@
     <div id="wrapper">
         <header>
             <div class="wrap">
-                <h1><a href="#"><img src="./images/logo.png" alt="한국접근성평가연구원"></a></h1>
+                <h1><a href="./index.html"><img src="./images/logo.png" alt="한국접근성평가연구원"></a></h1>
                 <nav>
                     <ul class="navigation">
                         <li class="on"a><a href="./accessibilities.html">접근성소개</a></li>
@@ -186,22 +186,8 @@
                         <div class="swiper-wrapper">
                             <div class="box swiper-slide">
                                 <a href="#">
-                                    <h4>접근성표준</h4>
-                                    <div class="desc">***동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
-                                    <div class="btn-link"><span class="material-symbols-outlined">arrow_right_alt</span></div>
-                                </a>
-                            </div>
-                            <div class="box swiper-slide">
-                                <a href="#">
                                     <h4>KWACG</h4>
                                     <div class="desc">WCAG(Web Content Accessibility Guidelines) 2.1은 웹 콘텐츠를 보다 더 접근 가능하게 만들기 위한 광범위한 권장표준을 포함하고 있는 지침입니다.</div>
-                                    <div class="btn-link"><span class="material-symbols-outlined">arrow_right_alt</span></div>
-                                </a>
-                            </div>
-                            <div class="box swiper-slide">
-                                <a href="#">
-                                    <h4>네이버 접근성</h4>
-                                    <div class="desc">네이버에서 제공하는 웹 접근성에 관한 상세한 가이드를 확인할 수 있습니다.</div>
                                     <div class="btn-link"><span class="material-symbols-outlined">arrow_right_alt</span></div>
                                 </a>
                             </div>
@@ -220,6 +206,7 @@
                     const accessMore = new Swiper(".sec-access-more .swiper", {
                         slidesPerView: "auto",
                         spaceBetween: 15,
+                        loop : true,
                         scrollbar: {
                             el: ".swiper-scrollbar"
                         },
