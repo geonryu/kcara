@@ -248,6 +248,8 @@ main section h3{
     .sec-access-intro .wrap .content .desc{
         font-size: 18px;
         text-align: center;
+        max-width: 840px;
+        margin: 0 auto
     }
     
     .sec-access-consider{
@@ -340,7 +342,7 @@ main section h3{
     .sec-access-more{
         padding: 80px 0;
     }
-    
+
     .sec-access-more .wrap{
         display: flex;
         justify-content: space-between;
