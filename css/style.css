@@ -21,7 +21,7 @@
     }
     header .wrap h1 img{
         display: block;
-        width: unset;
+        width: 250px;
         height: auto;
     }
     
@@ -125,6 +125,7 @@
         padding: 40px 30px;
         max-width: 1340px;
         margin: 0 auto;
+        position: relative;
     }
     .sec-bn h2{
         font-size: 36px;
@@ -172,6 +173,87 @@
         left: unset;
         display: flex;
         align-items: center;
+    }
+
+    .sec-bn .btn-slider-nav-prev{
+        height: 480px;
+        width: 100px;
+        position: absolute;
+        left: 0;
+        bottom: 40px;
+        z-index: 999999;
+        cursor: pointer;
+    }
+    .sec-bn .btn-slider-nav-prev::before{
+        content: '';
+        display: block;
+        width: 70px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-image: url(../images/slider-nav-grad-prv.png);
+        background-size: 100% 100%;
+        background-position: left center;
+        opacity: 0;
+        transition: opacity 0.2s;
+    }
+    .sec-bn .btn-slider-nav-prev:hover::before{opacity: 1;}
+    .sec-bn .btn-slider-nav-prev:active::before{opacity: 0;}
+    .sec-bn .btn-slider-nav-next{
+        height: 480px;
+        width: 100px;
+        position: absolute;
+        right: 0;
+        bottom: 40px;
+        z-index: 999999;
+        cursor: pointer;
+    }
+    .sec-bn .btn-slider-nav-next::before{
+        content: '';
+        display: block;
+        width: 70px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(../images/slider-nav-grad-nxt.png);
+        background-size: 100% 100%;
+        background-position: right center;
+        opacity: 0;
+        transition: opacity 0.2s;
+    }
+    .sec-bn .btn-slider-nav-next:hover::before{opacity: 1;}
+    .sec-bn .btn-slider-nav-next:active::before{opacity: 0;}
+    .sec-bn > div > button{
+        width: 30px;
+        height: 30px;
+        background-color: #072a60;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        transition: all 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: 600;
+    }
+    .sec-bn > div:hover > button{
+        background-color: #b2c6f2;
+        color: #072a60;
+    }
+    .sec-bn > div:active > button{
+        background-color: #072a60;
+        color: #fff;
+    }
+    .sec-bn button.arrow-prev{
+        left: 0;
+        transform: translate(50%, -50%);
+    }
+    .sec-bn button.arrow-next{
+        right: 0;
+        transform: translate(-50%, -50%);
     }
     
     .sec-intro{
@@ -288,6 +370,7 @@
     }
     footer .wrap address h2 img{
         height: unset;
+        width: 280px;
     }
     footer .wrap address p{
         font-size: 16px;

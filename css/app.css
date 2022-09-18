@@ -31,7 +31,7 @@ header .wrap h1{
 }
 header .wrap h1 img{
     display: block;
-    width: 120px;
+    width: 160px;
     height: auto;
 }
 
@@ -290,6 +290,7 @@ main .box-sd{
 }
 .sec-more .wrap .content .box a .ico{
     margin-right: 14px;
+    width: 20%;
 }
 .sec-more .wrap .content .box a .txt{
     font-weight: 600;

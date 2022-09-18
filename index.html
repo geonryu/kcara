@@ -94,12 +94,22 @@
                         </div>
                     </div>
                 </div>
+                <div class="btn-slider-nav-prev">
+                    <button class="arrow-prev"><span class="material-symbols-outlined">navigate_before</span></button>
+                </div>
+                <div class="btn-slider-nav-next">
+                    <button class="arrow-next"><span class="material-symbols-outlined">navigate_next</span></button>
+                </div>
                 <script>
                     const mainBn = new Swiper(".sec-bn .slider", {
                         slidesPerView : 1,
                         centeredSlides: true,
                         spaceBetween: 40,
-                        loop: true
+                        loop: true,
+                        navigation: {
+                            nextEl: ".btn-slider-nav-next",
+                            prevEl: ".btn-slider-nav-prev",
+                        },
                     })
                 </script>
             </section>

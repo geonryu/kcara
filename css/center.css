@@ -95,12 +95,12 @@
 .sec-member .wrap .org-list > li:last-child{
     border-bottom: 0;
 }
-.sec-member .wrap .org-list li a{
+.sec-member .wrap .org-list li{
     display: flex;
     align-items: flex-start;
     padding: 15px 0;
 }
-.sec-member .wrap .org-list li a .role{
+.sec-member .wrap .org-list li .role{
     margin-right: 14px;
     font-weight: 600;
     background-color: #072a60;
@@ -109,19 +109,19 @@
     color: #fff;
     border-radius: 50px;
 }
-.sec-member .wrap .org-list li a .name{
+.sec-member .wrap .org-list li .name{
     color: #072a60;
     font-weight: 600;
 }
-.sec-member .wrap .org-list li a .curr{
+.sec-member .wrap .org-list li .curr{
     width: 65%;
     margin-left: auto;
 }
-.sec-member .wrap .org-list li a .curr li{
+.sec-member .wrap .org-list li .curr li{
     font-size: 14px;
     margin-bottom: 8px;
 }
-.sec-member .wrap .org-list li a .curr li::before{
+.sec-member .wrap .org-list li .curr li::before{
     content: '·';
     margin-right: 3px;
 }
@@ -283,26 +283,26 @@
         border-top: 2px solid #072a60;
         border-bottom: 2px solid #072a60;
     }
-    .sec-member .wrap .org-list li a{
+    .sec-member .wrap .org-list li{
         padding: 20px;
     }
-    .sec-member .wrap .org-list li a .role{
+    .sec-member .wrap .org-list li .role{
         margin-right: 24px;
         font-weight: 600;
         padding: 3px 14px;
         font-size: 18px;
     }
-    .sec-member .wrap .org-list li a .name{
+    .sec-member .wrap .org-list li .name{
         font-size: 24px;
     }
-    .sec-member .wrap .org-list li a .curr{
+    .sec-member .wrap .org-list li .curr{
         width: 65%;
     }
-    .sec-member .wrap .org-list li a .curr li{
+    .sec-member .wrap .org-list li .curr li{
         font-size: 20px;
         margin-bottom: 10px;
     }
-    .sec-member .wrap .org-list li a .curr li::before{
+    .sec-member .wrap .org-list li .curr li::before{
         margin-right: 5px;
     }
     
